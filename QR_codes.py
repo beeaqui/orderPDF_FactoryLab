@@ -3,8 +3,8 @@ from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
 
 
-# GitHub base URL for raw files
-base_url = "https://raw.githubusercontent.com/beeaqui/orderPDF_FactoryLab/96bc726d33b1c6eb84107e57f5b8421a305c6fd8/"
+# GitHub base URL for raw files - update the link with the new commit
+base_url = "https://raw.githubusercontent.com/beeaqui/orderPDF_FactoryLab/d3d207f4aca649aca41d80867b302d48bfe7ab02/"
 
 # List of PDF filenames
 pdf_files = ["Order 1.pdf", "Order 2.pdf", "Order 3.pdf", "Order 4.pdf", "Order 5.pdf",
