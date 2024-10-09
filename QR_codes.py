@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 # GitHub base URL for raw files - update the link with the new commit
-base_url = "https://raw.githubusercontent.com/beeaqui/orderPDF_FactoryLab/3ee484824921739e2b86447f39a0d0f1717fe6b6/"
+base_url = "https://raw.githubusercontent.com/beeaqui/orderPDF_FactoryLab/8bb335341e4810766074f84d3a2a6d05e5940bde/"
 
 # List of PDF filenames
 pdf_files = ["Order 1.pdf", "Order 2.pdf", "Order 3.pdf", "Order 4.pdf", "Order 5.pdf",
@@ -13,8 +13,8 @@ pdf_files = ["Order 1.pdf", "Order 2.pdf", "Order 3.pdf", "Order 4.pdf", "Order 
              "Order 16.pdf", "Order 17.pdf", "Order 18.pdf", "Order 19.pdf", "Order 20.pdf"]
 
 # Directory to save the QR codes
-output_dir = Path(r"C:\Users\anaba\OneDrive\Ambiente de Trabalho\Investigação\
-                    4. Factory Lab\1. Games_dynamics\1_Ordens_Produção__Ronda_3\QR_codes")
+output_dir = Path(r'C:\Users\anaba\OneDrive\Ambiente de Trabalho\Investigação\4. Factory Lab\1. '
+                  r'Games_dynamics\1_Ordens_Produção__Ronda_1_2\QR_codes')
 
 output_dir.mkdir(parents=True, exist_ok=True)
 
