@@ -4,17 +4,22 @@ from pathlib import Path
 
 
 # GitHub base URL for raw files - update the link with the new commit
-base_url = "https://raw.githubusercontent.com/beeaqui/orderPDF_FactoryLab/8bb335341e4810766074f84d3a2a6d05e5940bde/"
+base_url = ("https://raw.githubusercontent.com/beeaqui/orderPDF_FactoryLab/fa494f260085fe3214ecfe6b300356965b731f8c"
+            "/Round3/")
 
 # List of PDF filenames
-pdf_files = ["Order 1.pdf", "Order 2.pdf", "Order 3.pdf", "Order 4.pdf", "Order 5.pdf",
-             "Order 6.pdf", "Order 7.pdf", "Order 8.pdf", "Order 9.pdf", "Order 10.pdf",
-             "Order 11.pdf", "Order 12.pdf", "Order 13.pdf", "Order 14.pdf", "Order 15.pdf",
-             "Order 16.pdf", "Order 17.pdf", "Order 18.pdf", "Order 19.pdf", "Order 20.pdf"]
+pdf_files = ["Order 1.1.pdf", "Order 2.1.pdf", "Order 2.2.pdf", "Order 3.1.pdf", "Order 3.2.pdf",
+             "Order 3.3.pdf", "Order 4.1.pdf", "Order 4.2.pdf", "Order 5.1.pdf", "Order 5.2.pdf",
+             "Order 6.1.pdf", "Order 7.1.pdf", "Order 8.1.pdf", "Order 8.2.pdf", "Order 9.1.pdf",
+             "Order 9.2.pdf", "Order 10.1.pdf", "Order 11.1.pdf", "Order 11.2.pdf", "Order 12.1.pdf",
+             "Order 12.2.pdf", "Order 13.1.pdf", "Order 13.2.pdf", "Order 13.3.pdf", "Order 14.1.pdf",
+             "Order 15.1.pdf", "Order 16.1.pdf", "Order 16.2.pdf", "Order 17.1.pdf", "Order 17.2.pdf",
+             "Order 18.1.pdf", "Order 18.2.pdf", "Order 18.3.pdf", "Order 19.1.pdf", "Order 20.1.pdf",
+             "Order 20.2.pdf"]
 
 # Directory to save the QR codes
 output_dir = Path(r'C:\Users\anaba\OneDrive\Ambiente de Trabalho\Investigação\4. Factory Lab\1. '
-                  r'Games_dynamics\1_Ordens_Produção__Ronda_3\QR_codes\QR_codes_png')
+                  r'Games_dynamics\1_Ordens_Produção__Ronda_3\QR_codes')
 
 output_dir.mkdir(parents=True, exist_ok=True)
 
