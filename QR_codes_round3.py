@@ -13,9 +13,8 @@ pdf_files = ["Order 1.pdf", "Order 2.pdf", "Order 3.pdf", "Order 4.pdf", "Order 
              "Order 16.pdf", "Order 17.pdf", "Order 18.pdf", "Order 19.pdf", "Order 20.pdf"]
 
 # Directory to save the QR codes
-output_dir = Path(r"C:\Users\anaba\OneDrive\Ambiente de Trabalho\Investigação\
-                    4. Factory Lab\1. Games_dynamics\1_Ordens_Produção__Ronda_3\QR_codes")
-
+output_dir = Path(r"C:\Users\anaba\OneDrive\Ambiente de Trabalho\Investigação\4. Factory Lab\1. Games and dynamics\
+                    1. Ordens de Produção - Ronda 1 e 2\1. QR_codes\QR_codes_png")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Paths to the logo images
