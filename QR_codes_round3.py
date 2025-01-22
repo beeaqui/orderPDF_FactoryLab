@@ -3,7 +3,6 @@ from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
 
 
-# GitHub base URL for raw files - update the link with the new commit
 base_url = "https://github.com/beeaqui/orderPDF_FactoryLab/raw/main/Round3/"
 
 # List of PDF filenames
@@ -18,7 +17,7 @@ pdf_files = ["Order 1.1.pdf", "Order 2.1.pdf", "Order 2.2.pdf", "Order 3.1.pdf",
 
 # Directory to save the QR codes
 output_dir = Path(r'C:\Users\anaba\OneDrive\Ambiente de Trabalho\Investigação\4. Factory Lab\1. Games_dynamics'
-                  r'\1_Ordens_Producao_Ronda3')
+                  r'\1_Ordens_Producao_Ronda3\QR_codes')
 
 output_dir.mkdir(parents=True, exist_ok=True)
 
